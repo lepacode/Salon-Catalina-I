@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quinta el pacará</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/mediaQueries.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
+    <script src="cache.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="slideshow-container" id="slideshow">
+            <!-- Las imágenes se generarán dinámicamente -->
+        </div>
+
+        <nav class="nav container" id="nav">
+
+            <a href="index.html">
+                <img class="nav__logo" src="assets/vectores/logo.svg" alt="">
+            </a>
+
+            <div class="nav__icons">
+
+                <a href="#nav">
+                    <img class="nav__open" src="assets/vectores/hamburguesa.svg" alt="">
+                </a>
+
+                <a href="#">
+                    <img class="nav__close" src="assets/vectores/cruz.svg" alt="">
+                </a>
+            </div>
+            <ul class="nav__items">
+
+                <li class="nav__links">
+                    <a class="nav__link" href="#nosotros">Nosotros</a>
+                </li>
+
+                <li class="nav__links">
+                    <a class="nav__link" href="#elegirnos">Conócenos</a>
+                </li>
+
+                <li class="nav__links">
+                    <a class="nav__link" href="#testimonios">Testimonios</a>
+                </li>
+                <li class="nav__links">
+                    <a class="nav__link" href="#fotos">Fotos</a>
+                </li>
+                <li class="nav__links">
+                    <a class="nav__link" href="#ubicacion">Ubicacion</a>
+                </li>
+                <li class="nav__links">
+                    <a class="nav__link" href="#mensaje">Contacto</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+        <div class="titulo__container">
+            <h1 class="header__titulo">Momentos únicos, espacios inolvidables</h1>
+            <h1 class="header__titulo header__subtitulo">Celebrá como lo soñaste</h1>
+        </div>
+
+        <img class="header__arrow" src="assets/vectores/arrow.svg" alt="">
+
+
+    </header>
+
+    <main>
+
+        <section class="about_us" id="nosotros">
+            <article class="about_us__card">
+                <header class="about_us__header">
+                    <span class="about_us__eyebrow">¿QUIENES SOMOS?</span>
+                    <h1 class="about_us__title">Nuestra escencia <br><strong>es nuestra marca</strong></h1>
+                </header>
+
+                <div class="about_us__body">
+                    <p class="about_us__paragraph">
+                        Somos un espacio pensado para celebrar lo que importa. Creemos que los momentos especiales se
+                        construyen con detalles, calidez y una atmósfera que se siente auténtica desde el primer
+                        instante. Por eso diseñamos cada evento con sensibilidad y dedicación, creando un ambiente donde
+                        las emociones fluyen naturalmente y cada celebración se vive, se disfruta y se recuerda.
+                    </p>
+
+                </div>
+            </article>
+
+        </section>
+
+        <section class="why_choose" id="elegirnos">
+            <div class="why_choose__container">
+
+                <header class="why_choose__header">
+                    <h2 class="why_choose__title">Razones para <span class="why_choose__title_strong">Elegir Nuestro
+                            Salón</span></h2>
+                </header>
+
+                <div class="why_choose__grid">
+                    <!-- Tarjeta 1 -->
+                    <div class="why_choose__card">
+                        <div class="why_choose__card_icon_box">01</div>
+                        <h3 class="why_choose__card_title">Experiencia de Élite</h3>
+                        <p class="why_choose__card_description">
+                            Años perfeccionando el arte de la hospitalidad para garantizar que cada segundo sea
+                            memorable.
+                        </p>
+                    </div>
+
+                    <!-- Tarjeta 2 -->
+                    <div class="why_choose__card why_choose__card_alt why_choose__card__special">
+                        <div class="why_choose__card_icon_box">02</div>
+                        <h3 class="why_choose__card_title">Diseño Adaptable</h3>
+                        <p class="why_choose__card_description">
+                            Arquitectura versátil que se transforma según la temática y magnitud de tu celebración.
+                        </p>
+                    </div>
+
+                    <!-- Tarjeta 3 -->
+                    <div class="why_choose__card">
+                        <div class="why_choose__card_icon_box">03</div>
+                        <h3 class="why_choose__card_title">Catering Exclusivo</h3>
+                        <p class="why_choose__card_description">
+                            Propuestas gastronómicas de autor diseñadas para sorprender a los paladares más exigentes.
+                        </p>
+                    </div>
+
+                    <!-- Tarjeta 4 -->
+                    <div class="why_choose__card why_choose__card_alt">
+                        <div class="why_choose__card_icon_box">04</div>
+                        <h3 class="why_choose__card_title">Gestión Integral</h3>
+                        <p class="why_choose__card_description">
+                            Nos ocupamos de la logística completa para que tu única responsabilidad sea disfrutar el
+                            momento.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="testimonios" id="testimonios">
+            <h3 class="muestras__titulo">Testimonios <br><strong class="titulo__strong">Que dicen nuestros
+                    clientes?</strong></h3>
+            <div class="swiper swiper-testimonios">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial_card">
+                            <div class="testimonial_card__content">
+                                <div class="testimonial_card__header">
+                                    <div class="testimonial_card__info">
+                                        <div class="testimonial_card__name">María Rodríguez</div>
+                                        <div class="testimonial_card__role">Boda con Martin Díaz</div>
+                                    </div>
+                                </div>
+                                <p class="testimonial_card__quote">
+                                    La calidad del salón y la organización del evento fue excepcional. Sin dudas volveré
+                                    a elegirlos para futuras celebraciones.
+                                </p>
+                            </div>
+                            <div class="testimonial_card__footer">
+                                <div class="testimonial_card__rating_label">Calificación</div>
+                                <div class="testimonial_card__rating">
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial_card">
+                            <div class="testimonial_card__content">
+                                <div class="testimonial_card__header">
+                                    <div class="testimonial_card__info">
+                                        <div class="testimonial_card__name">Juan López</div>
+                                        <div class="testimonial_card__role">Papá de Sofia</div>
+                                    </div>
+                                </div>
+                                <p class="testimonial_card__quote">
+                                    Atención personalizada y un resultado increíble. Cada detalle estuvo perfecto.
+                                    Recomiendo ampliamente este salón.
+                                </p>
+                            </div>
+                            <div class="testimonial_card__footer">
+                                <div class="testimonial_card__rating_label">Calificación</div>
+                                <div class="testimonial_card__rating">
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial_card">
+                            <div class="testimonial_card__content">
+                                <div class="testimonial_card__header">
+                                    <div class="testimonial_card__info">
+                                        <div class="testimonial_card__name">Ana García</div>
+                                        <div class="testimonial_card__role">Mamá de Solana </div>
+                                    </div>
+                                </div>
+                                <p class="testimonial_card__quote">
+                                    Excelente servicio, superó todas mis expectativas. El equipo es muy profesional y se
+                                    nota el compromiso con la calidad.
+                                </p>
+                            </div>
+                            <div class="testimonial_card__footer">
+                                <div class="testimonial_card__rating_label">Calificación</div>
+                                <div class="testimonial_card__rating">
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 4 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial_card">
+                            <div class="testimonial_card__content">
+                                <div class="testimonial_card__header">
+                                    <div class="testimonial_card__info">
+                                        <div class="testimonial_card__name">Graciela Nuñez</div>
+                                        <div class="testimonial_card__role">Fiesta de Egresados</div>
+                                    </div>
+                                </div>
+                                <p class="testimonial_card__quote">
+                                    El evento salió perfecto. La ambientación, el sonido y la atención fueron de primer
+                                    nivel. Todos los invitados quedaron fascinados.
+                                </p>
+                            </div>
+                            <div class="testimonial_card__footer">
+                                <div class="testimonial_card__rating_label">Calificación</div>
+                                <div class="testimonial_card__rating">
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 5 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial_card">
+                            <div class="testimonial_card__content">
+                                <div class="testimonial_card__header">
+                                    <div class="testimonial_card__info">
+                                        <div class="testimonial_card__name">Luis Ponce</div>
+                                        <div class="testimonial_card__role">Mi fiesta de 18 años</div>
+                                    </div>
+                                </div>
+                                <p class="testimonial_card__quote">
+                                    Un salón hermoso, súper cómodo y con un staff que te acompaña en todo. Hicieron que
+                                    nuestra noche fuera inolvidable.
+                                </p>
+                            </div>
+                            <div class="testimonial_card__footer">
+                                <div class="testimonial_card__rating_label">Calificación</div>
+                                <div class="testimonial_card__rating">
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 6 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial_card">
+                            <div class="testimonial_card__content">
+                                <div class="testimonial_card__header">
+                                    <div class="testimonial_card__info">
+                                        <div class="testimonial_card__name">Noelia Fuenzalida</div>
+                                        <div class="testimonial_card__role">Quinceañera</div>
+                                    </div>
+                                </div>
+                                <p class="testimonial_card__quote">
+                                    Desde la primera reunión hasta el último minuto del evento, el trato fue impecable.
+                                    Se encargaron de todo para que disfrutáramos sin preocupaciones.
+                                </p>
+                            </div>
+                            <div class="testimonial_card__footer">
+                                <div class="testimonial_card__rating_label">Calificación</div>
+                                <div class="testimonial_card__rating">
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 7 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial_card">
+                            <div class="testimonial_card__content">
+                                <div class="testimonial_card__header">
+                                    <div class="testimonial_card__info">
+                                        <div class="testimonial_card__name">Tomasa Aguirre</div>
+                                        <div class="testimonial_card__role">Mis 70 años</div>
+                                    </div>
+                                </div>
+                                <p class="testimonial_card__quote">
+                                    La fiesta de mi hija fue mágica. La iluminación, la decoración y el ambiente
+                                    hicieron que todo fuera especial. Gracias por tanto profesionalismo.
+                                </p>
+                            </div>
+                            <div class="testimonial_card__footer">
+                                <div class="testimonial_card__rating_label">Calificación</div>
+                                <div class="testimonial_card__rating">
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 8 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial_card">
+                            <div class="testimonial_card__content">
+                                <div class="testimonial_card__header">
+                                    <div class="testimonial_card__info">
+                                        <div class="testimonial_card__name">Raúl Córdoba</div>
+                                        <div class="testimonial_card__role">Fiesta de recibida</div>
+                                    </div>
+                                </div>
+                                <p class="testimonial_card__quote">
+                                    Excelente relación precio-calidad. Todo salió tal como lo prometieron y más. Sin
+                                    duda, uno de los mejores salones para cualquier tipo de evento.
+                                </p>
+                            </div>
+                            <div class="testimonial_card__footer">
+                                <div class="testimonial_card__rating_label">Calificación</div>
+                                <div class="testimonial_card__rating">
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                    <span class="testimonial_card__star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section class="fotos" id="fotos">
+
+            <h3 class="muestras__titulo">Galería de Fotos</h3>
+
+
+            <div class="fotos__container">
+                <a data-fancybox="gallery" href="assets/imagenes/galeria/uno.webp">
+                    <img class="fotos__img" src="assets/imagenes/galeria/uno.webp" alt="">
+                </a>
+                <a data-fancybox="gallery" href="assets/imagenes/galeria/dos.webp">
+                    <img class="fotos__img" src="assets/imagenes/galeria/dos.webp" alt="">
+                </a>
+                <a data-fancybox="gallery" href="assets/imagenes/galeria/tres.webp">
+                    <img class="fotos__img" src="assets/imagenes/galeria/tres.webp" alt="">
+                </a>
+                <a data-fancybox="gallery" href="assets/imagenes/galeria/cuatro.webp">
+                    <img class="fotos__img" src="assets/imagenes/galeria/cuatro.webp" alt="">
+                </a>
+                <a data-fancybox="gallery" href="assets/imagenes/galeria/cinco.webp">
+                    <img class="fotos__img" src="assets/imagenes/galeria/cinco.webp" alt="">
+                </a>
+                <a data-fancybox="gallery" href="assets/imagenes/galeria/seis.webp">
+                    <img class="fotos__img" src="assets/imagenes/galeria/seis.webp" alt="">
+                </a>
+                <a data-fancybox="gallery" href="assets/imagenes/galeria/siete.webp">
+                    <img class="fotos__img" src="assets/imagenes/galeria/siete.webp" alt="">
+                </a>
+                <a data-fancybox="gallery" href="assets/imagenes/galeria/ocho.webp">
+                    <img class="fotos__img" src="assets/imagenes/galeria/ocho.webp" alt="">
+                </a>
+                <a data-fancybox="gallery" href="assets/imagenes/galeria/nueve.webp">
+                    <img class="fotos__img" src="assets/imagenes/galeria/nueve.webp" alt="">
+                </a>
+                <a data-fancybox="gallery" href="assets/imagenes/galeria/diez.webp">
+                    <img class="fotos__img" src="assets/imagenes/galeria/diez.webp" alt="">
+                </a>
+
+            </div>
+
+
+        </section>
+
+        <section class="oferta">
+            <div class="oferta__contenedor">
+                <h2 class="oferta__titulo">Creamos eventos únicos, pensados para que disfrutes cada momento sin
+                    preocupaciones.</h2>
+
+                <div class="oferta__servicios">
+                    <div class="oferta__servicio">
+                        <div class="oferta__servicio_icono">
+                            <svg class="oferta__icono" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M9 11l3 3L22 4" />
+                                <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" />
+                            </svg>
+                        </div>
+                        <h3 class="oferta__servicio_titulo">Planificación integral</h3>
+                    </div>
+
+                    <div class="oferta__servicio">
+                        <div class="oferta__servicio_icono">
+                            <svg class="oferta__icono" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="12" r="10" />
+                                <path d="M12 6v6l4 2" />
+                            </svg>
+                        </div>
+                        <h3 class="oferta__servicio_titulo">Decoración personalizada</h3>
+                    </div>
+
+                    <div class="oferta__servicio">
+                        <div class="oferta__servicio_icono">
+                            <svg class="oferta__icono" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M9 18V5l12-2v13" />
+                                <circle cx="6" cy="18" r="3" />
+                                <circle cx="18" cy="16" r="3" />
+                            </svg>
+                        </div>
+                        <h3 class="oferta__servicio_titulo">Música y ambientación</h3>
+                    </div>
+
+                    <div class="oferta__servicio">
+                        <div class="oferta__servicio_icono">
+                            <svg class="oferta__icono" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 002-2V2" />
+                                <path d="M7 2v20" />
+                                <path d="M21 15V2v0a5 5 0 00-5 5v6c0 1.1.9 2 2 2h3zm0 0v7" />
+                            </svg>
+                        </div>
+                        <h3 class="oferta__servicio_titulo">Catering de calidad</h3>
+                    </div>
+                </div>
+
+                <div class="oferta__eventos">
+                    <p class="oferta__eventos_label">Ideal para:</p>
+                    <div class="oferta__eventos_lista">
+                        <span class="oferta__evento_tag">Bodas</span>
+                        <span class="oferta__evento_tag">Cumpleaños</span>
+                        <span class="oferta__evento_tag">Eventos corporativos</span>
+                    </div>
+                </div>
+
+                <p class="oferta__nota">Reservá con anticipación y consultá fechas 2026 / 2027</p>
+
+                <button class="oferta__boton" id="botonContactoOferta">
+                    <svg class="oferta__boton_icono" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                    Contactar
+                </button>
+            </div>
+        </section>
+
+        <section class="mapa" id="ubicacion">
+            <h3 class="mapa__titulo">¿Dónde estamos?</h3>
+
+            <iframe class="mapa__ubi"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.9199242515692!2d-65.2814028!3d-26.842499099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225cb2bf5ee2a3%3A0xf4c5f28b5bcbbeac!2sSalon%20Catalina%20Eventos!5e0!3m2!1ses-419!2sar!4v1767138312405!5m2!1ses-419!2sar"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <a class="boton__ubicacion" href="https://maps.app.goo.gl/DE7BAZTw62eEBBvT8">Ver Ubicacion</a>
+
+        </section>
+
+        <section class="contacto" id="mensaje">
+            <article class="left">
+                <h4 class="left__title">Contactanos</h4>
+                <h5 class="left__subtitle">Te responderemos a la brevedad</h5>
+                <div class="left_inputs">
+                    <input class="inputs__left" type="text" placeholder="escribe aqui tu nombre" id="nombreInput"
+                        required>
+                    <textarea class="input__textarea inputs__left" name="" id="mensajeTextarea"
+                        placeholder="escribe aqui tu mensaje" required></textarea>
+                    <button class="input__submit" onclick="abrirWhatsApp()">Enviar consulta</button>
+                </div>
+                <div id="mensajeErrorContacto" style="display:none;"></div>
+            </article>
+            <article class="right">
+                <img class="right__logo" src="assets/vectores/logo.svg" alt="">
+                <p class="right__paragraph">Convertimos momentos, en recuerdos inolvidables</p>
+            </article>
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer__content">
+            <img class="footer__logo" src="assets/vectores/logo.svg" alt="">
+            <div class="footer__social">
+                <h5 class="footer__redes">Siguenos</h5>
+                <div class="social__icons">
+                    <!-- <img class="social__icon" src="assets/vectores/face.svg" alt=""> -->
+                    <a
+                        href="https://www.instagram.com/catalinaeventos.s?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                        <img class="social__icon" src="assets/vectores/insta.svg" alt="">
+                    </a>
+                    <a href="https://www.facebook.com/p/Salon-Catalina-Eventos-100064516729733/?locale=es_LA">
+                        <img class="social__icon" src="assets/vectores/facebook_redondo.svg" alt="">
+                    </a>
+
+                    <!-- <img class="social__icon" src="assets/vectores/twit.svg" alt=""> -->
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__copy">
+            <h6 class="footer__copyParagraph">
+                © 2026 SALON "CATALINA EVENTOS" <br> | Todos los derechos reservados. |
+                <br><br>
+                Creamos momentos inolvidables con elegancia y distinción. Contáctanos y haz de tu evento una experiencia
+                única.
+            </h6>
+        </div>
+
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
